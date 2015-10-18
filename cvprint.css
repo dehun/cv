@@ -1,0 +1,80 @@
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    height: 100%;
+    margin: 0;
+}
+
+#mainbox {
+    background-color: #FFFFFF;
+	position:relative;
+    width: 50%;
+    min-width: 480px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+	min-height:100%;    
+}
+
+.shortjob {
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.infobox {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #FFFFFF;
+
+    padding-left: 20px;
+    border-left: 10px;
+    border-left-style: solid;
+    border-left-color: #CCCCCC;
+
+    color: #000000;
+    font-family: 'Chivo', sans-serif;
+}
+
+.info {
+    page-break-inside: avoid;
+    page-break-before: auto;
+    page-break-after: auto;
+}
+
+ul {
+    margin-top: 5px;
+    list-style-type: square;
+}
+
+#contacts {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style-type: none;            
+}
+
+
+#title {
+    margin-top: 0px;    
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Chivo', sans-serif;    
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Chivo', sans-serif;
+    color: #333333;
+}
+
+#title {
+    margin-top: 0px;    
+}
