@@ -11,15 +11,19 @@ body {
     margin: 0;
 }
 
+#expirience_box {
+    page-break-before: always;
+}
+
 #mainbox {
     background-color: #201F1D;
-	position:relative;
+    position:relative;
     width: 50%;
     min-width: 320px;
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
-	min-height:100%;    
+    min-height:100%;    
 }
 
 #namebox {
@@ -28,7 +32,7 @@ body {
     margin-bottomt: 0px;
     margin-left: auto;
     margin-right: auto;
-	position:relative;    
+    position:relative;    
 }
 
 #name {
@@ -72,7 +76,8 @@ body {
     border-left-color: #DE8D47;
 
     color: #dcdcdc;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Chivo', sans-serif; */
 }
 
 .shortjob {
@@ -84,7 +89,8 @@ body {
 h1 {
     margin-top: 10px;
     margin-bottom: 0px;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Chivo', sans-serif; */
 }
 
 #title {
@@ -94,13 +100,15 @@ h1 {
 h2 {
     margin-top: 10px;
     margin-bottom: 0px;
-    font-family: 'Chivo', sans-serif;    
+    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Chivo', sans-serif;     */
 }
 
 h3 {
     margin-top: 10px;
     margin-bottom: 0px;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Chivo', sans-serif; */
     color: #FFFFFF;
 }
 
