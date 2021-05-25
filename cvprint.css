@@ -39,8 +39,13 @@ body {
     font-family: 'Chivo', sans-serif;
 }
 
+.infobox {
+    page-break-inside: avoid;
+}
+
 .info {
     page-break-inside: avoid;
+    break-inside: avoid;
     page-break-before: auto;
     page-break-after: auto;
 }
