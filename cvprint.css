@@ -40,15 +40,21 @@ body {
 }
 
 .infobox {
-    page-break-inside: avoid;
+    /* page-break-inside: avoid; */
 }
 
-.info {
-    page-break-inside: avoid;
-    break-inside: avoid;
-    page-break-before: auto;
+.jobinfo {
+    page-break-inside: auto;
+    page-break-before: always;
     page-break-after: auto;
 }
+
+/* .info { */
+/*     page-break-inside: avoid; */
+/*     break-inside: avoid; */
+/*     page-break-before: always; */
+/*     page-break-after: auto; */
+/* } */
 
 ul {
     margin-top: 5px;
